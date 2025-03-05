@@ -1,0 +1,12 @@
+{
+    "example-dev": {
+        "example": [
+            "get_weather"
+        ]
+    },
+    "git-dev": {
+        "git": [
+            "make_git_commit_message"
+        ]
+    }
+}

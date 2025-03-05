@@ -1,0 +1,24 @@
+{
+    "name": "Git",
+    "description": "Tools for Git CLI.",
+    "tools": [
+        {
+            "name": "",
+            "path": "{plugin_name}/{tool_name}.js",
+            "schema": {
+                "name": "make_git_commit_message",
+                "description": "Create a git commit message for the target file",
+                "input_schema": {
+                    "type": "object",
+                    "properties": {
+                        "file_path": {
+                            "type": "string",
+                            "description": "The path to the file to run git diff on"
+                        }
+                    },
+                    "required": ["file_path"]
+                }
+            }
+        }
+    ]
+}
